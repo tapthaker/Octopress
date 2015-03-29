@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://tapthaker.github.io
-title: Tapthaker
-subtitle: Blogging about thoughts and learnings in technology.
+title: Stacktrace 
+subtitle: A blog about thoughts and learnings in technology.
 author: Tapan Thaker
 simple_search: https://www.google.com/search
 description:
@@ -79,7 +79,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: tapan.d.thaker
 googleplus_hidden: false
 
 # Pinboard
@@ -91,11 +91,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: Tapan Thaker
+disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-61301769-1
 
 # Facebook Like
 facebook_like: true
