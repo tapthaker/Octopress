@@ -19,6 +19,8 @@ like UIViewControllers we hardly write any mainly because we assume that we cann
 remove this misconception and shows how easily you could write unit tests for UIViewControllers.
 For the rest of this post I will refer the UIViewController as view controller.
 
+<!-- more -->
+
 Some of the things to note before you start things:
 
 * The view of the view controller needs to be loaded and wired properly before you simulate any interactions.
