@@ -3,7 +3,10 @@ layout: post
 title: "CoreData - The Right Way, Part-I"
 date: 2015-04-09 22:34:33 +0530
 comments: true
-categories: 
+categories:
+- iOS
+- OOP
+- Core Data
 ---
 {% blockquote %}
 “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”
