@@ -14,7 +14,7 @@ categories:
 ― Uncle Bob
 {% endblockquote %}
 
-I have already [written a post wrt this topic](http://tapthaker.github.io/blog/2015/03/28/unit-testing-ioss-uiviewcontrollers/), but after discussing with several colleagues
+I have already [written a post on this topic](http://tapthaker.github.io/blog/2015/03/28/unit-testing-ioss-uiviewcontrollers/), but after discussing with several colleagues
 I have realized that the approach I was talking about might not be scalable. The approach discussed there relies on several hacks which though **cool** can cause some unexpected behaviour.
 We are relying on the internal implementation of UIViewControllers which might change anytime when devs at Apple feel like. Plus that approach makes us comfortable in writing core business logic in the
 UIViewControllers instead of creating a ViewModels for them.
@@ -68,3 +68,5 @@ if need be. As a bonus you can create a new iPad-App or Mac-App with the same Bu
 I am pretty sure that by now you already have an idea of the LoginViewController's implementation
 
 {% include_code [LoginViewController] LoginViewController.swift %}
+
+### You can clone/download the Example project from -> [my Github repo](https://github.com/tapthaker/UnitTesting-UIViewControllers)
