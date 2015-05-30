@@ -48,9 +48,23 @@ Lets take the example of Login. Lets say you have to code the following scenario
 - If the credentials entered are incorrect display the message *"Incorrect username or password"*.
 - Also, if the user exceeds 5 attempts display an alert saying *"Maximum number of retries exceeded"*.
 
+<img align="center" src="{{root_url}}/images/diagrams/UnitTestingVC-advanced.png" />
+
 With the above criteria the LoginBusinessLogicController would look something like this -
 
-{% include_code [LoginBusinessLogicController] [lang:Swift] LoginBusinessLogicController.swift %}
+{% include_code [LoginBusinessLogicController] LoginBusinessLogicController.swift %}
 
+Notice the it conforms to the Eventable protocol, which declares the method **dispatchEvent**.
 
-<img align="center" src="{{root_url}}/images/diagrams/UnitTestingVC-advanced.png" />
+To test such BusinessLogicControllers, you can create a StubbedControllable and use that to send events.
+Lets look at how we could could implement tests for this -
+
+{% include_code [LoginBusinessLogicControllerTests] LoginBusinessLogicControllerTests.swift %}
+
+Note that neither the LoginBusinessLogicController nor its test is importing the UIKit module. The code written here
+is independent of the iOS UIKit Framework which means the tests can run as a separately from the Simulator, faster in-parallel
+if need be. As a bonus you can create a new iPad-App or Mac-App with the same BusinessLogicControllers wiring them with new ViewControllers.
+
+I am pretty sure that by now you already have an idea of the LoginViewController's implementation
+
+{% include_code [LoginViewController] LoginViewController.swift %}
