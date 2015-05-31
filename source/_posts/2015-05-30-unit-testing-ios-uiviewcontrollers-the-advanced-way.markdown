@@ -56,8 +56,10 @@ With the above criteria the LoginBusinessLogicController would look something li
 
 Notice the it conforms to the Eventable protocol, which declares the method **dispatchEvent**.
 
-To test such BusinessLogicControllers, you can create a StubbedControllable and use that to send events.
-Lets look at how we could could implement tests for this -
+To test such BusinessLogicControllers, you can create a StubbedControllable and use that to send events. I am not going
+to show the implementation of the StubbedControllable here because it will just bloat the code, if you really want to look
+at that you can head on my [Github example repo](https://github.com/tapthaker/UnitTesting-UIViewControllers).
+Lets look at how we could implement tests for this -
 
 {% include_code [LoginBusinessLogicControllerTests] LoginBusinessLogicControllerTests.swift %}
 
