@@ -19,6 +19,11 @@ like UIViewControllers we hardly write any mainly because we assume that we cann
 remove this misconception and shows how easily you could write unit tests for UIViewControllers.
 For the rest of this post I will refer the UIViewController as view controller.
 
+## Deprecated
+This method of unit testing UIViewControllers isn't probably the right way. Please refer to my other post [Unit Testing iOS UIViewControllers - the Advanced Way](http://tapthaker.github.io/blog/2015/05/30/unit-testing-ios-uiviewcontrollers-the-advanced-way/) to know more
+I am keeping this post just for the sake of reference and would suggest everyone to use the other **non-hackable** method to test things.
+
+## 
 <!-- more -->
 
 Some of the things to note before you start things:
